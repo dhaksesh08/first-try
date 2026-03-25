@@ -1,0 +1,24 @@
+def get_student_info():
+    print("--- Student Information Portal ---")
+    
+    # Collecting information from the user
+    name = input("Enter Student Name: ")
+    roll_number = input("Enter Roll Number: ")
+    address = input("Enter Residential Address: ")
+    phone_number = input("Enter Phone Number: ")
+    hobbies = input("Enter Hobbies (separated by commas): ")
+
+    # Displaying the collected data
+    print("\n----------------------------------")
+    print("      STUDENT PROFILE SUMMARY      ")
+    print("----------------------------------")
+    print(f"Name         : {name}")
+    print(f"Roll No      : {roll_number}")
+    print(f"Address      : {address}")
+    print(f"Phone        : {phone_number}")
+    print(f"Hobbies      : {hobbies}")
+    print("----------------------------------")
+
+# Run the function
+if __name__ == "__main__":
+    get_student_info()
